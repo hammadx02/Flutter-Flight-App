@@ -1,3 +1,13 @@
+import 'package:flutter/material.dart';
+import 'package:flightapp/screens/home_screen.dart';
+
+void main() => runApp(const MaterialApp(
+      title: "Flight App",
+      debugShowCheckedModeBanner: false,
+      home: HomeScreen(),
+    ));
+
+
 // import 'package:flightapp/widgets/custom_shape_clipper.dart';
 // import 'package:flutter/material.dart';
 
@@ -476,13 +486,3 @@
 //     );
 //   }
 // }
-
-// lib/main.dart
-import 'package:flutter/material.dart';
-import 'package:flightapp/screens/home_screen.dart';
-
-void main() => runApp(const MaterialApp(
-      title: "Flight App",
-      debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
-    ));
